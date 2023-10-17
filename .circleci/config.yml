@@ -10,7 +10,7 @@ workflows:
       - eb/deploy:
           app-dir: ~/project/backend
           context: aws-creds
-          application-name: SDSU-DeployProject
+          application-name: SDSU-Deploy Project
           environment-name: SDSU-DeployProject-env
           filters:
             branches:
